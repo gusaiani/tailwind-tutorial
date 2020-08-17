@@ -126,9 +126,13 @@ module.exports = {
     lg: "992px",
     xl: "1200px",
     range: {
-      'min': '500px',
-      'max': '700px'
-    }
+      "min": "500px",
+      "max": "700px"
+    },
+    skip: [
+      { min: "500px", max: "700px" },
+      { min: "900px" }
+    ]
   },
 
   /*
