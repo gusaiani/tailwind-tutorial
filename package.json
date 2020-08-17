@@ -1,0 +1,11 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "tailwindcss": "^1.6.2"
+  }
+}
