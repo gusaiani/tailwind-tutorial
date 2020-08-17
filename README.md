@@ -6,7 +6,7 @@ In this repo I go through [this Egghead.io course](https://egghead.io/courses/bu
 
 `yarn global add gulp` or `volta install gulp`
 
-`gulp css`
+`gulp`
 
 ## Run
 

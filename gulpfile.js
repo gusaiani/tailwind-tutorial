@@ -14,4 +14,6 @@ gulp.task('css', () => {
       tailwindcss(PATHS.config),
       require('autoprefixer')]))
       .pipe(gulp.dest(PATHS.dist));
-})
+});
+
+gulp.task('default', gulp.parallel('css'));
